@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		89342FE21D45EFAB00141749 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89342FE11D45EFAB00141749 /* main.m */; };
 		89342FE51D45EFAB00141749 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89342FE41D45EFAB00141749 /* AppDelegate.m */; };
-		89342FE81D45EFAB00141749 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89342FE71D45EFAB00141749 /* ViewController.m */; };
 		89342FEB1D45EFAB00141749 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89342FE91D45EFAB00141749 /* Main.storyboard */; };
 		89342FED1D45EFAB00141749 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89342FEC1D45EFAB00141749 /* Assets.xcassets */; };
 		89342FF01D45EFAB00141749 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89342FEE1D45EFAB00141749 /* LaunchScreen.storyboard */; };
 		89342FFB1D45EFAB00141749 /* UITabBarVCDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89342FFA1D45EFAB00141749 /* UITabBarVCDemoTests.m */; };
 		893430061D45EFAB00141749 /* UITabBarVCDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 893430051D45EFAB00141749 /* UITabBarVCDemoUITests.m */; };
+		893430151D45EFEC00141749 /* XLPTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 893430141D45EFEC00141749 /* XLPTabBarViewController.m */; };
+		893430181D45F13100141749 /* XLPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 893430171D45F13100141749 /* XLPViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +40,6 @@
 		89342FE11D45EFAB00141749 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		89342FE31D45EFAB00141749 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		89342FE41D45EFAB00141749 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		89342FE61D45EFAB00141749 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		89342FE71D45EFAB00141749 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		89342FEA1D45EFAB00141749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		89342FEC1D45EFAB00141749 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89342FEF1D45EFAB00141749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +50,10 @@
 		893430011D45EFAB00141749 /* UITabBarVCDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITabBarVCDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		893430051D45EFAB00141749 /* UITabBarVCDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITabBarVCDemoUITests.m; sourceTree = "<group>"; };
 		893430071D45EFAB00141749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		893430131D45EFEC00141749 /* XLPTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPTabBarViewController.h; sourceTree = "<group>"; };
+		893430141D45EFEC00141749 /* XLPTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPTabBarViewController.m; sourceTree = "<group>"; };
+		893430161D45F13100141749 /* XLPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPViewController.h; sourceTree = "<group>"; };
+		893430171D45F13100141749 /* XLPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,13 +106,15 @@
 			children = (
 				89342FE31D45EFAB00141749 /* AppDelegate.h */,
 				89342FE41D45EFAB00141749 /* AppDelegate.m */,
-				89342FE61D45EFAB00141749 /* ViewController.h */,
-				89342FE71D45EFAB00141749 /* ViewController.m */,
+				893430131D45EFEC00141749 /* XLPTabBarViewController.h */,
+				893430141D45EFEC00141749 /* XLPTabBarViewController.m */,
 				89342FE91D45EFAB00141749 /* Main.storyboard */,
 				89342FEC1D45EFAB00141749 /* Assets.xcassets */,
 				89342FEE1D45EFAB00141749 /* LaunchScreen.storyboard */,
 				89342FF11D45EFAB00141749 /* Info.plist */,
 				89342FE01D45EFAB00141749 /* Supporting Files */,
+				893430161D45F13100141749 /* XLPViewController.h */,
+				893430171D45F13100141749 /* XLPViewController.m */,
 			);
 			path = UITabBarVCDemo;
 			sourceTree = "<group>";
@@ -270,7 +275,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89342FE81D45EFAB00141749 /* ViewController.m in Sources */,
+				893430151D45EFEC00141749 /* XLPTabBarViewController.m in Sources */,
+				893430181D45F13100141749 /* XLPViewController.m in Sources */,
 				89342FE51D45EFAB00141749 /* AppDelegate.m in Sources */,
 				89342FE21D45EFAB00141749 /* main.m in Sources */,
 			);

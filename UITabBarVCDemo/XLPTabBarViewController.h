@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  XLPTabBarViewController.h
 //  UITabBarVCDemo
 //
 //  Created by xulianpeng on 16/7/25.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface XLPTabBarViewController : UITabBarController
 
 @end
-
