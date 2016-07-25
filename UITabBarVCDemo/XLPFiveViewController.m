@@ -16,7 +16,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+
+    UITabBar *theTabBar = [[UITabBar alloc]initWithFrame:CGRectMake(0, 64, self.view.frame.size.width, 49)];
+    [self.view addSubview:theTabBar];
+    theTabBar.barTintColor = [UIColor purpleColor];
+    
 }
 
 - (void)didReceiveMemoryWarning {

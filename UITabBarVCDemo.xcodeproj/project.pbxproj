@@ -31,6 +31,9 @@
 		8934303A1D45F76200141749 /* tabBar_shop2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 893430301D45F76200141749 /* tabBar_shop2@2x.png */; };
 		8934303B1D45F76200141749 /* tabBar_tool@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 893430311D45F76200141749 /* tabBar_tool@2x.png */; };
 		8934303C1D45F76200141749 /* tabBar_tool2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 893430321D45F76200141749 /* tabBar_tool2@2x.png */; };
+		8934303F1D461D5700141749 /* XLPTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8934303E1D461D5700141749 /* XLPTabBar.m */; };
+		893430411D461EBD00141749 /* tabBar_find2Red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 893430401D461EBD00141749 /* tabBar_find2Red@2x.png */; };
+		893430431D461EDD00141749 /* tabBar_findRed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 893430421D461EDD00141749 /* tabBar_findRed@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +92,10 @@
 		893430301D45F76200141749 /* tabBar_shop2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBar_shop2@2x.png"; sourceTree = "<group>"; };
 		893430311D45F76200141749 /* tabBar_tool@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBar_tool@2x.png"; sourceTree = "<group>"; };
 		893430321D45F76200141749 /* tabBar_tool2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBar_tool2@2x.png"; sourceTree = "<group>"; };
+		8934303D1D461D5700141749 /* XLPTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPTabBar.h; sourceTree = "<group>"; };
+		8934303E1D461D5700141749 /* XLPTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPTabBar.m; sourceTree = "<group>"; };
+		893430401D461EBD00141749 /* tabBar_find2Red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBar_find2Red@2x.png"; sourceTree = "<group>"; };
+		893430421D461EDD00141749 /* tabBar_findRed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBar_findRed@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +162,8 @@
 				893430261D45F2B600141749 /* XLPFiveViewController.m */,
 				893430131D45EFEC00141749 /* XLPTabBarViewController.h */,
 				893430141D45EFEC00141749 /* XLPTabBarViewController.m */,
+				8934303D1D461D5700141749 /* XLPTabBar.h */,
+				8934303E1D461D5700141749 /* XLPTabBar.m */,
 				89342FE91D45EFAB00141749 /* Main.storyboard */,
 				89342FEC1D45EFAB00141749 /* Assets.xcassets */,
 				89342FEE1D45EFAB00141749 /* LaunchScreen.storyboard */,
@@ -194,6 +203,9 @@
 		893430281D45F72E00141749 /* Picture */ = {
 			isa = PBXGroup;
 			children = (
+				893430441D46466E00141749 /* weiboIcon */,
+				893430421D461EDD00141749 /* tabBar_findRed@2x.png */,
+				893430401D461EBD00141749 /* tabBar_find2Red@2x.png */,
 				893430291D45F76200141749 /* tabBar_find@2x.png */,
 				8934302A1D45F76200141749 /* tabBar_find2@2x.png */,
 				8934302B1D45F76200141749 /* tabBar_forum@2x.png */,
@@ -206,6 +218,13 @@
 				893430321D45F76200141749 /* tabBar_tool2@2x.png */,
 			);
 			name = Picture;
+			sourceTree = "<group>";
+		};
+		893430441D46466E00141749 /* weiboIcon */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = weiboIcon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,7 +341,9 @@
 				893430351D45F76200141749 /* tabBar_forum@2x.png in Resources */,
 				893430361D45F76200141749 /* tabBar_forum2@2x.png in Resources */,
 				893430341D45F76200141749 /* tabBar_find2@2x.png in Resources */,
+				893430411D461EBD00141749 /* tabBar_find2Red@2x.png in Resources */,
 				893430391D45F76200141749 /* tabBar_shop@2x.png in Resources */,
+				893430431D461EDD00141749 /* tabBar_findRed@2x.png in Resources */,
 				893430371D45F76200141749 /* tabBar_news@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,6 +371,7 @@
 			files = (
 				893430211D45F29E00141749 /* XLPThreeViewController.m in Sources */,
 				893430271D45F2B600141749 /* XLPFiveViewController.m in Sources */,
+				8934303F1D461D5700141749 /* XLPTabBar.m in Sources */,
 				893430241D45F2AA00141749 /* XLPFourViewController.m in Sources */,
 				893430151D45EFEC00141749 /* XLPTabBarViewController.m in Sources */,
 				893430181D45F13100141749 /* XLPViewController.m in Sources */,
