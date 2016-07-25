@@ -16,6 +16,21 @@
 		893430061D45EFAB00141749 /* UITabBarVCDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 893430051D45EFAB00141749 /* UITabBarVCDemoUITests.m */; };
 		893430151D45EFEC00141749 /* XLPTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 893430141D45EFEC00141749 /* XLPTabBarViewController.m */; };
 		893430181D45F13100141749 /* XLPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 893430171D45F13100141749 /* XLPViewController.m */; };
+		8934301B1D45F27200141749 /* XLPOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8934301A1D45F27200141749 /* XLPOneViewController.m */; };
+		8934301E1D45F28600141749 /* XLPTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8934301D1D45F28600141749 /* XLPTwoViewController.m */; };
+		893430211D45F29E00141749 /* XLPThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 893430201D45F29E00141749 /* XLPThreeViewController.m */; };
+		893430241D45F2AA00141749 /* XLPFourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 893430231D45F2AA00141749 /* XLPFourViewController.m */; };
+		893430271D45F2B600141749 /* XLPFiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 893430261D45F2B600141749 /* XLPFiveViewController.m */; };
+		893430331D45F76200141749 /* tabBar_find@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 893430291D45F76200141749 /* tabBar_find@2x.png */; };
+		893430341D45F76200141749 /* tabBar_find2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8934302A1D45F76200141749 /* tabBar_find2@2x.png */; };
+		893430351D45F76200141749 /* tabBar_forum@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8934302B1D45F76200141749 /* tabBar_forum@2x.png */; };
+		893430361D45F76200141749 /* tabBar_forum2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8934302C1D45F76200141749 /* tabBar_forum2@2x.png */; };
+		893430371D45F76200141749 /* tabBar_news@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8934302D1D45F76200141749 /* tabBar_news@2x.png */; };
+		893430381D45F76200141749 /* tabBar_news2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8934302E1D45F76200141749 /* tabBar_news2@2x.png */; };
+		893430391D45F76200141749 /* tabBar_shop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8934302F1D45F76200141749 /* tabBar_shop@2x.png */; };
+		8934303A1D45F76200141749 /* tabBar_shop2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 893430301D45F76200141749 /* tabBar_shop2@2x.png */; };
+		8934303B1D45F76200141749 /* tabBar_tool@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 893430311D45F76200141749 /* tabBar_tool@2x.png */; };
+		8934303C1D45F76200141749 /* tabBar_tool2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 893430321D45F76200141749 /* tabBar_tool2@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +69,26 @@
 		893430141D45EFEC00141749 /* XLPTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPTabBarViewController.m; sourceTree = "<group>"; };
 		893430161D45F13100141749 /* XLPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPViewController.h; sourceTree = "<group>"; };
 		893430171D45F13100141749 /* XLPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPViewController.m; sourceTree = "<group>"; };
+		893430191D45F27200141749 /* XLPOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPOneViewController.h; sourceTree = "<group>"; };
+		8934301A1D45F27200141749 /* XLPOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPOneViewController.m; sourceTree = "<group>"; };
+		8934301C1D45F28600141749 /* XLPTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPTwoViewController.h; sourceTree = "<group>"; };
+		8934301D1D45F28600141749 /* XLPTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPTwoViewController.m; sourceTree = "<group>"; };
+		8934301F1D45F29E00141749 /* XLPThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPThreeViewController.h; sourceTree = "<group>"; };
+		893430201D45F29E00141749 /* XLPThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPThreeViewController.m; sourceTree = "<group>"; };
+		893430221D45F2AA00141749 /* XLPFourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPFourViewController.h; sourceTree = "<group>"; };
+		893430231D45F2AA00141749 /* XLPFourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPFourViewController.m; sourceTree = "<group>"; };
+		893430251D45F2B600141749 /* XLPFiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPFiveViewController.h; sourceTree = "<group>"; };
+		893430261D45F2B600141749 /* XLPFiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPFiveViewController.m; sourceTree = "<group>"; };
+		893430291D45F76200141749 /* tabBar_find@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBar_find@2x.png"; sourceTree = "<group>"; };
+		8934302A1D45F76200141749 /* tabBar_find2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBar_find2@2x.png"; sourceTree = "<group>"; };
+		8934302B1D45F76200141749 /* tabBar_forum@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBar_forum@2x.png"; sourceTree = "<group>"; };
+		8934302C1D45F76200141749 /* tabBar_forum2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBar_forum2@2x.png"; sourceTree = "<group>"; };
+		8934302D1D45F76200141749 /* tabBar_news@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBar_news@2x.png"; sourceTree = "<group>"; };
+		8934302E1D45F76200141749 /* tabBar_news2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBar_news2@2x.png"; sourceTree = "<group>"; };
+		8934302F1D45F76200141749 /* tabBar_shop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBar_shop@2x.png"; sourceTree = "<group>"; };
+		893430301D45F76200141749 /* tabBar_shop2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBar_shop2@2x.png"; sourceTree = "<group>"; };
+		893430311D45F76200141749 /* tabBar_tool@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBar_tool@2x.png"; sourceTree = "<group>"; };
+		893430321D45F76200141749 /* tabBar_tool2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBar_tool2@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +141,18 @@
 			children = (
 				89342FE31D45EFAB00141749 /* AppDelegate.h */,
 				89342FE41D45EFAB00141749 /* AppDelegate.m */,
+				893430161D45F13100141749 /* XLPViewController.h */,
+				893430171D45F13100141749 /* XLPViewController.m */,
+				893430191D45F27200141749 /* XLPOneViewController.h */,
+				8934301A1D45F27200141749 /* XLPOneViewController.m */,
+				8934301C1D45F28600141749 /* XLPTwoViewController.h */,
+				8934301D1D45F28600141749 /* XLPTwoViewController.m */,
+				8934301F1D45F29E00141749 /* XLPThreeViewController.h */,
+				893430201D45F29E00141749 /* XLPThreeViewController.m */,
+				893430221D45F2AA00141749 /* XLPFourViewController.h */,
+				893430231D45F2AA00141749 /* XLPFourViewController.m */,
+				893430251D45F2B600141749 /* XLPFiveViewController.h */,
+				893430261D45F2B600141749 /* XLPFiveViewController.m */,
 				893430131D45EFEC00141749 /* XLPTabBarViewController.h */,
 				893430141D45EFEC00141749 /* XLPTabBarViewController.m */,
 				89342FE91D45EFAB00141749 /* Main.storyboard */,
@@ -113,8 +160,6 @@
 				89342FEE1D45EFAB00141749 /* LaunchScreen.storyboard */,
 				89342FF11D45EFAB00141749 /* Info.plist */,
 				89342FE01D45EFAB00141749 /* Supporting Files */,
-				893430161D45F13100141749 /* XLPViewController.h */,
-				893430171D45F13100141749 /* XLPViewController.m */,
 			);
 			path = UITabBarVCDemo;
 			sourceTree = "<group>";
@@ -122,6 +167,7 @@
 		89342FE01D45EFAB00141749 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				893430281D45F72E00141749 /* Picture */,
 				89342FE11D45EFAB00141749 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -143,6 +189,23 @@
 				893430071D45EFAB00141749 /* Info.plist */,
 			);
 			path = UITabBarVCDemoUITests;
+			sourceTree = "<group>";
+		};
+		893430281D45F72E00141749 /* Picture */ = {
+			isa = PBXGroup;
+			children = (
+				893430291D45F76200141749 /* tabBar_find@2x.png */,
+				8934302A1D45F76200141749 /* tabBar_find2@2x.png */,
+				8934302B1D45F76200141749 /* tabBar_forum@2x.png */,
+				8934302C1D45F76200141749 /* tabBar_forum2@2x.png */,
+				8934302D1D45F76200141749 /* tabBar_news@2x.png */,
+				8934302E1D45F76200141749 /* tabBar_news2@2x.png */,
+				8934302F1D45F76200141749 /* tabBar_shop@2x.png */,
+				893430301D45F76200141749 /* tabBar_shop2@2x.png */,
+				893430311D45F76200141749 /* tabBar_tool@2x.png */,
+				893430321D45F76200141749 /* tabBar_tool2@2x.png */,
+			);
+			name = Picture;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,7 +313,17 @@
 			files = (
 				89342FF01D45EFAB00141749 /* LaunchScreen.storyboard in Resources */,
 				89342FED1D45EFAB00141749 /* Assets.xcassets in Resources */,
+				893430381D45F76200141749 /* tabBar_news2@2x.png in Resources */,
+				8934303A1D45F76200141749 /* tabBar_shop2@2x.png in Resources */,
+				8934303B1D45F76200141749 /* tabBar_tool@2x.png in Resources */,
 				89342FEB1D45EFAB00141749 /* Main.storyboard in Resources */,
+				8934303C1D45F76200141749 /* tabBar_tool2@2x.png in Resources */,
+				893430331D45F76200141749 /* tabBar_find@2x.png in Resources */,
+				893430351D45F76200141749 /* tabBar_forum@2x.png in Resources */,
+				893430361D45F76200141749 /* tabBar_forum2@2x.png in Resources */,
+				893430341D45F76200141749 /* tabBar_find2@2x.png in Resources */,
+				893430391D45F76200141749 /* tabBar_shop@2x.png in Resources */,
+				893430371D45F76200141749 /* tabBar_news@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,9 +348,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				893430211D45F29E00141749 /* XLPThreeViewController.m in Sources */,
+				893430271D45F2B600141749 /* XLPFiveViewController.m in Sources */,
+				893430241D45F2AA00141749 /* XLPFourViewController.m in Sources */,
 				893430151D45EFEC00141749 /* XLPTabBarViewController.m in Sources */,
 				893430181D45F13100141749 /* XLPViewController.m in Sources */,
+				8934301E1D45F28600141749 /* XLPTwoViewController.m in Sources */,
 				89342FE51D45EFAB00141749 /* AppDelegate.m in Sources */,
+				8934301B1D45F27200141749 /* XLPOneViewController.m in Sources */,
 				89342FE21D45EFAB00141749 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -504,6 +582,7 @@
 				8934300C1D45EFAB00141749 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8934300D1D45EFAB00141749 /* Build configuration list for PBXNativeTarget "UITabBarVCDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +591,7 @@
 				8934300F1D45EFAB00141749 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		893430101D45EFAB00141749 /* Build configuration list for PBXNativeTarget "UITabBarVCDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +600,7 @@
 				893430121D45EFAB00141749 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
