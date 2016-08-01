@@ -7,7 +7,7 @@
 //
 
 #import "XLPThreeViewController.h"
-
+#import "TestNavigationBarVController.h"
 @interface XLPThreeViewController ()
 
 @end
@@ -16,9 +16,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+//    self.title = @"three";
+    UIButton *bt = [UIButton buttonWithType:UIButtonTypeCustom];
+    bt.frame = CGRectMake(100, 200, 200, 50);
+    bt.backgroundColor = [UIColor purpleColor];
+    
+    [self.view addSubview:bt];
+    [bt addTarget:self action:@selector(pushVC:) forControlEvents:UIControlEventTouchUpInside];
 }
+- (void)pushVC:(UIButton *)BT
+{
 
+    TestNavigationBarVController *testVC = [[TestNavigationBarVController alloc]init];
+    testVC.hidesBottomBarWhenPushed = YES;
+    [self.navigationController pushViewController:testVC animated:YES];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

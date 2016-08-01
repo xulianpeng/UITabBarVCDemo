@@ -8,7 +8,7 @@
 //
 
 #import "XLPTabBarViewController.h"
-
+#import "XLPBaseNavigationViewController.h"
 #import "XLPOneViewController.h"
 #import "XLPTwoViewController.h"
 #import "XLPThreeViewController.h"
@@ -41,8 +41,7 @@
 //    _threeVC = [[XLPThreeViewController alloc]init];
 //    _fourVC = [[XLPFourViewController alloc]init];
 //    _fiveVC = [[XLPFiveViewController alloc]init];
-    
-//    self.viewControllers = @[_oneVC,_twoVC,_threeVC,_fourVC,_fiveVC];
+//    
 //    
 //    
 //    _oneVC.tabBarItem.image = [UIImage imageNamed:@"tabBar_news"];
@@ -73,6 +72,7 @@
 //    lastTabBarItem.selectedImage = selectImage;
 //    lastTabBarItem.title = @"发现";
 //    _fiveVC.tabBarItem = lastTabBarItem;
+//    self.viewControllers = @[_oneVC,_twoVC,_threeVC,_fourVC,_fiveVC];
     
     /**
      *  设置title的颜色 而不是默认的颜色
@@ -188,19 +188,23 @@
     
     // 添加四个TabBarController的子控制器
     // 首页Home
-    [self setupOneChildViewController:_oneVC image:[UIImage imageNamed:@"tabbar_home"] selectedImage:[UIImage imageNamed:@"tabbar_home_selected"] title:@"首页"];
+     XLPBaseNavigationViewController *naVC1 = [[XLPBaseNavigationViewController alloc]initWithRootViewController:_oneVC];
+    [self setupOneChildViewController:naVC1 image:[UIImage imageNamed:@"tabbar_home"] selectedImage:[UIImage imageNamed:@"tabbar_home_selected"] title:@"首页"];
     
     // 消息message
-    [self setupOneChildViewController:_twoVC image:[UIImage imageNamed:@"tabbar_message_center"] selectedImage:[UIImage imageNamed:@"tabbar_message_center_selected"] title:@"消息"];
+     XLPBaseNavigationViewController *naVC2 = [[XLPBaseNavigationViewController alloc]initWithRootViewController:_twoVC];
+    [self setupOneChildViewController:naVC2 image:[UIImage imageNamed:@"tabbar_message_center"] selectedImage:[UIImage imageNamed:@"tabbar_message_center_selected"] title:@"消息"];
     
     // 发现discover
-    [self setupOneChildViewController:_threeVC image:[UIImage imageNamed:@"tabbar_discover"] selectedImage:[UIImage imageNamed:@"tabbar_discover_selected"] title:@"发现"];
+     XLPBaseNavigationViewController *naVC3 = [[XLPBaseNavigationViewController alloc]initWithRootViewController:_threeVC];
+    [self setupOneChildViewController:naVC3 image:[UIImage imageNamed:@"tabbar_discover"] selectedImage:[UIImage imageNamed:@"tabbar_discover_selected"] title:@"发现"];
     
     // 我profile
-    [self setupOneChildViewController:_fourVC image:[UIImage imageNamed:@"tabbar_profile"] selectedImage:[UIImage imageNamed:@"tabbar_profile_selected"] title:@"我"];
+     XLPBaseNavigationViewController *naVC4 = [[XLPBaseNavigationViewController alloc]initWithRootViewController:_fourVC];
+    [self setupOneChildViewController:naVC4 image:[UIImage imageNamed:@"tabbar_profile"] selectedImage:[UIImage imageNamed:@"tabbar_profile_selected"] title:@"我"];
     
     // 添加到tabBar
-    self.viewControllers = @[_oneVC, _twoVC, _threeVC, _fourVC];
+    self.viewControllers = @[naVC1, naVC2, naVC3, naVC4];
    
     
 }

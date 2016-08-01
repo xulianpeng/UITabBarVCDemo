@@ -13,10 +13,31 @@
 @end
 
 @implementation XLPTwoViewController
-
+/**
+ *  toolBar的毛玻璃效果
+ */
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+//    self.title = @"two";
+    UIImageView *aImageView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 200, self.view.frame.size.width, 100)];
+    aImageView.image = [UIImage imageNamed:@"炉石传说logo"];
+    [self.view addSubview:aImageView];
+    
+    UIToolbar *toolBar = [[UIToolbar alloc]initWithFrame:aImageView.bounds];
+     toolBar.barStyle = UIBarStyleBlackTranslucent;
+    [aImageView addSubview:toolBar];
+    
+    /**
+     *  ios8以后的方法
+     */
+    UIBlurEffect * blurEffect = [UIBlurEffect effectWithStyle:UIBlurEffectStyleLight];
+    //  毛玻璃视图
+    UIVisualEffectView * effectView = [[UIVisualEffectView alloc] initWithEffect:blurEffect];
+    //添加到要有毛玻璃特效的控件中
+    effectView.frame = aImageView.bounds;
+    [aImageView addSubview:effectView];
+    //设置模糊透明度
+    effectView.alpha = .5f;
 }
 
 - (void)didReceiveMemoryWarning {

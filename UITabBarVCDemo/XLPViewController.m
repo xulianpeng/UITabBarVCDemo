@@ -18,6 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [self randomColor];
+//    self.hidesBottomBarWhenPushed = YES;
 }
 - (UIColor *) randomColor
 {

@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "XLPTabBarViewController.h"
+#import "XLPOneViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -20,8 +21,7 @@
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     
     XLPTabBarViewController *tabBarVC  =[[XLPTabBarViewController alloc]init];
-    UINavigationController *naVC = [[UINavigationController alloc]initWithRootViewController:tabBarVC];
-    self.window.rootViewController = naVC;
+    self.window.rootViewController = tabBarVC;
     [self.window makeKeyAndVisible];
     [self.window makeKeyWindow];
     return YES;
