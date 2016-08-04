@@ -7,7 +7,6 @@
 //
 
 #import "XLPViewController.h"
-
 @interface XLPViewController ()
 
 @end

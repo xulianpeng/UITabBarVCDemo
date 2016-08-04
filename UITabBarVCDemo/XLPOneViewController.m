@@ -8,10 +8,14 @@
 
 #import "XLPOneViewController.h"
 #import "Masonry.h"
+#import "oneDemoTextViewViewController.h"
+#import "twoDemoViewController.h"
+#import "threeViewController.h"
 @interface XLPOneViewController ()<UITableViewDelegate,UITableViewDataSource>
 {
     UITableView *mainView;
     NSArray *dataArr;
+    NSArray *VCArr;
 }
 @end
 
@@ -21,6 +25,8 @@
     [super viewDidLoad];
 
     dataArr = [NSArray arrayWithObjects:@"测试1",@"测试二",@"测试1",@"测试二",@"测试1",@"测试二",@"测试1",@"测试二",@"测试1",@"测试二",@"测试1",@"测试二",@"测试1",@"测试二", nil];
+    
+    VCArr = [NSArray arrayWithObjects:[oneDemoTextViewViewController new],[twoDemoViewController new],[threeViewController new], nil];
     mainView = [[UITableView alloc]init];
     [self.view addSubview:mainView];
     mainView.delegate = self;
@@ -68,6 +74,28 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     NSLog(@"00000");
+    
+    switch (indexPath.row) {
+        case 0:
+            [self jumpToOneVC:0];
+            break;
+            case 1:
+            [self jumpToOneVC:1];
+            break;
+        case 2:
+            [self jumpToOneVC:2];
+            break;
+        default:
+            break;
+    }
+}
+- (void)jumpToOneVC:(NSInteger)row
+{
+    if (row < VCArr.count) {
+        
+        XLPViewController *aVC = VCArr[row];
+        [self.navigationController pushViewController:aVC animated:YES];
+    }
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

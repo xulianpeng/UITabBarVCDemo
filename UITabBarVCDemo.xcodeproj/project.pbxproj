@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8910D2991D51964200F56938 /* UITextView+HDFTextview.m in Sources */ = {isa = PBXBuildFile; fileRef = 8910D2981D51964200F56938 /* UITextView+HDFTextview.m */; };
+		8910D29F1D51D25100F56938 /* UITextView+placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8910D29E1D51D25100F56938 /* UITextView+placeholder.m */; };
+		8910D2A51D51DD2A00F56938 /* twoDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8910D2A41D51DD2A00F56938 /* twoDemoViewController.m */; };
 		89342FE21D45EFAB00141749 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89342FE11D45EFAB00141749 /* main.m */; };
 		89342FE51D45EFAB00141749 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89342FE41D45EFAB00141749 /* AppDelegate.m */; };
 		89342FEB1D45EFAB00141749 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89342FE91D45EFAB00141749 /* Main.storyboard */; };
@@ -48,6 +51,9 @@
 		8934307D1D4F1D4F00141749 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8934306F1D4F1D4F00141749 /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		8934307E1D4F1D4F00141749 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 893430711D4F1D4F00141749 /* View+MASAdditions.m */; };
 		8934307F1D4F1D4F00141749 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 893430741D4F1D4F00141749 /* ViewController+MASAdditions.m */; };
+		893430861D4F5A2200141749 /* oneDemoTextViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 893430851D4F5A2200141749 /* oneDemoTextViewViewController.m */; };
+		8934308C1D5051DD00141749 /* XLPTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8934308B1D5051DD00141749 /* XLPTextView.m */; };
+		89DDAAF51D5200720005A4CC /* threeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DDAAF41D5200720005A4CC /* threeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +74,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8910D2971D51964200F56938 /* UITextView+HDFTextview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+HDFTextview.h"; sourceTree = "<group>"; };
+		8910D2981D51964200F56938 /* UITextView+HDFTextview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+HDFTextview.m"; sourceTree = "<group>"; };
+		8910D29C1D51CFC800F56938 /* UITextView_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITextView_private.h; sourceTree = "<group>"; };
+		8910D29D1D51D25100F56938 /* UITextView+placeholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITextView+placeholder.h"; path = "UITabBarVCDemo/UITextView+placeholder.h"; sourceTree = "<group>"; };
+		8910D29E1D51D25100F56938 /* UITextView+placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITextView+placeholder.m"; path = "UITabBarVCDemo/UITextView+placeholder.m"; sourceTree = "<group>"; };
+		8910D2A31D51DD2A00F56938 /* twoDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = twoDemoViewController.h; sourceTree = "<group>"; };
+		8910D2A41D51DD2A00F56938 /* twoDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = twoDemoViewController.m; sourceTree = "<group>"; };
 		89342FDD1D45EFAB00141749 /* UITabBarVCDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITabBarVCDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89342FE11D45EFAB00141749 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		89342FE31D45EFAB00141749 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -142,6 +155,13 @@
 		893430721D4F1D4F00141749 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		893430731D4F1D4F00141749 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		893430741D4F1D4F00141749 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		893430841D4F5A2200141749 /* oneDemoTextViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oneDemoTextViewViewController.h; sourceTree = "<group>"; };
+		893430851D4F5A2200141749 /* oneDemoTextViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = oneDemoTextViewViewController.m; sourceTree = "<group>"; };
+		8934308A1D5051DD00141749 /* XLPTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPTextView.h; sourceTree = "<group>"; };
+		8934308B1D5051DD00141749 /* XLPTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPTextView.m; sourceTree = "<group>"; };
+		8934308D1D50526600141749 /* XLP.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLP.pch; sourceTree = "<group>"; };
+		89DDAAF31D5200720005A4CC /* threeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = threeViewController.h; sourceTree = "<group>"; };
+		89DDAAF41D5200720005A4CC /* threeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = threeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +192,8 @@
 		89342FD41D45EFAB00141749 = {
 			isa = PBXGroup;
 			children = (
+				89DDAAEF1D51F66F0005A4CC /* category */,
+				8910D29C1D51CFC800F56938 /* UITextView_private.h */,
 				8934305A1D4F1D4F00141749 /* Masonry */,
 				8934304C1D48A8BF00141749 /* BaseUI */,
 				89342FDF1D45EFAB00141749 /* UITabBarVCDemo */,
@@ -212,6 +234,9 @@
 				893430141D45EFEC00141749 /* XLPTabBarViewController.m */,
 				8934303D1D461D5700141749 /* XLPTabBar.h */,
 				8934303E1D461D5700141749 /* XLPTabBar.m */,
+				8934308A1D5051DD00141749 /* XLPTextView.h */,
+				8934308B1D5051DD00141749 /* XLPTextView.m */,
+				893430831D4F59C800141749 /* oneVC */,
 				893430451D475E0300141749 /* UINavigationBar */,
 				89342FE91D45EFAB00141749 /* Main.storyboard */,
 				89342FEC1D45EFAB00141749 /* Assets.xcassets */,
@@ -225,6 +250,7 @@
 		89342FE01D45EFAB00141749 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8934308D1D50526600141749 /* XLP.pch */,
 				893430281D45F72E00141749 /* Picture */,
 				89342FE11D45EFAB00141749 /* main.m */,
 			);
@@ -330,6 +356,30 @@
 			path = Masonry;
 			sourceTree = "<group>";
 		};
+		893430831D4F59C800141749 /* oneVC */ = {
+			isa = PBXGroup;
+			children = (
+				893430841D4F5A2200141749 /* oneDemoTextViewViewController.h */,
+				893430851D4F5A2200141749 /* oneDemoTextViewViewController.m */,
+				8910D2A31D51DD2A00F56938 /* twoDemoViewController.h */,
+				8910D2A41D51DD2A00F56938 /* twoDemoViewController.m */,
+				89DDAAF31D5200720005A4CC /* threeViewController.h */,
+				89DDAAF41D5200720005A4CC /* threeViewController.m */,
+			);
+			name = oneVC;
+			sourceTree = "<group>";
+		};
+		89DDAAEF1D51F66F0005A4CC /* category */ = {
+			isa = PBXGroup;
+			children = (
+				8910D2971D51964200F56938 /* UITextView+HDFTextview.h */,
+				8910D2981D51964200F56938 /* UITextView+HDFTextview.m */,
+				8910D29D1D51D25100F56938 /* UITextView+placeholder.h */,
+				8910D29E1D51D25100F56938 /* UITextView+placeholder.m */,
+			);
+			name = category;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -397,6 +447,7 @@
 				TargetAttributes = {
 					89342FDC1D45EFAB00141749 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = R7FLL89AQ2;
 					};
 					89342FF51D45EFAB00141749 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -484,16 +535,22 @@
 				8934307A1D4F1D4F00141749 /* MASViewAttribute.m in Sources */,
 				893430781D4F1D4F00141749 /* MASConstraintMaker.m in Sources */,
 				893430481D475E3B00141749 /* TestNavigationBarVController.m in Sources */,
+				8910D29F1D51D25100F56938 /* UITextView+placeholder.m in Sources */,
 				893430151D45EFEC00141749 /* XLPTabBarViewController.m in Sources */,
 				893430181D45F13100141749 /* XLPViewController.m in Sources */,
 				8934307F1D4F1D4F00141749 /* ViewController+MASAdditions.m in Sources */,
+				89DDAAF51D5200720005A4CC /* threeViewController.m in Sources */,
 				8934301E1D45F28600141749 /* XLPTwoViewController.m in Sources */,
 				8934307C1D4F1D4F00141749 /* NSArray+MASAdditions.m in Sources */,
+				8910D2991D51964200F56938 /* UITextView+HDFTextview.m in Sources */,
 				89342FE51D45EFAB00141749 /* AppDelegate.m in Sources */,
 				893430791D4F1D4F00141749 /* MASLayoutConstraint.m in Sources */,
 				893430761D4F1D4F00141749 /* MASCompositeConstraint.m in Sources */,
 				8934301B1D45F27200141749 /* XLPOneViewController.m in Sources */,
+				8910D2A51D51DD2A00F56938 /* twoDemoViewController.m in Sources */,
 				89342FE21D45EFAB00141749 /* main.m in Sources */,
+				8934308C1D5051DD00141749 /* XLPTextView.m in Sources */,
+				893430861D4F5A2200141749 /* oneDemoTextViewViewController.m in Sources */,
 				8934304B1D485D0700141749 /* TestTwoViewController.m in Sources */,
 				893430771D4F1D4F00141749 /* MASConstraint.m in Sources */,
 			);
@@ -639,10 +696,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/UITabBarVCDemo/XLP.pch";
 				INFOPLIST_FILE = UITabBarVCDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = XLP.UITabBarVCDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -651,10 +712,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/UITabBarVCDemo/XLP.pch";
 				INFOPLIST_FILE = UITabBarVCDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = XLP.UITabBarVCDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
