@@ -53,7 +53,12 @@
 		8934307F1D4F1D4F00141749 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 893430741D4F1D4F00141749 /* ViewController+MASAdditions.m */; };
 		893430861D4F5A2200141749 /* oneDemoTextViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 893430851D4F5A2200141749 /* oneDemoTextViewViewController.m */; };
 		8934308C1D5051DD00141749 /* XLPTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8934308B1D5051DD00141749 /* XLPTextView.m */; };
+		8948F6601DAC7FFC006BE98A /* FiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8948F65F1DAC7FFC006BE98A /* FiveViewController.m */; };
+		8948F6641DAC8238006BE98A /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8948F6631DAC8238006BE98A /* CollectionViewCell.m */; };
 		89DDAAF51D5200720005A4CC /* threeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DDAAF41D5200720005A4CC /* threeViewController.m */; };
+		89E6F8991D5980D90067F26A /* UIButton+disableTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E6F8981D5980D90067F26A /* UIButton+disableTime.m */; };
+		89E6F89E1D6196B10067F26A /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E6F89C1D6196B10067F26A /* FourViewController.m */; };
+		89E6F89F1D6196B10067F26A /* FourViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89E6F89D1D6196B10067F26A /* FourViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -160,8 +165,17 @@
 		8934308A1D5051DD00141749 /* XLPTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPTextView.h; sourceTree = "<group>"; };
 		8934308B1D5051DD00141749 /* XLPTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPTextView.m; sourceTree = "<group>"; };
 		8934308D1D50526600141749 /* XLP.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLP.pch; sourceTree = "<group>"; };
+		8948F65E1DAC7FFC006BE98A /* FiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiveViewController.h; sourceTree = "<group>"; };
+		8948F65F1DAC7FFC006BE98A /* FiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiveViewController.m; sourceTree = "<group>"; };
+		8948F6621DAC8238006BE98A /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		8948F6631DAC8238006BE98A /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
 		89DDAAF31D5200720005A4CC /* threeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = threeViewController.h; sourceTree = "<group>"; };
 		89DDAAF41D5200720005A4CC /* threeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = threeViewController.m; sourceTree = "<group>"; };
+		89E6F8971D5980D90067F26A /* UIButton+disableTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+disableTime.h"; sourceTree = "<group>"; };
+		89E6F8981D5980D90067F26A /* UIButton+disableTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+disableTime.m"; sourceTree = "<group>"; };
+		89E6F89B1D6196B10067F26A /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FourViewController.h; path = ../FourViewController.h; sourceTree = "<group>"; };
+		89E6F89C1D6196B10067F26A /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FourViewController.m; path = ../FourViewController.m; sourceTree = "<group>"; };
+		89E6F89D1D6196B10067F26A /* FourViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FourViewController.xib; path = ../FourViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +206,7 @@
 		89342FD41D45EFAB00141749 = {
 			isa = PBXGroup;
 			children = (
+				89E6F89A1D59D9460067F26A /* customUIKit */,
 				89DDAAEF1D51F66F0005A4CC /* category */,
 				8910D29C1D51CFC800F56938 /* UITextView_private.h */,
 				8934305A1D4F1D4F00141749 /* Masonry */,
@@ -359,14 +374,29 @@
 		893430831D4F59C800141749 /* oneVC */ = {
 			isa = PBXGroup;
 			children = (
+				89E6F89B1D6196B10067F26A /* FourViewController.h */,
+				89E6F89C1D6196B10067F26A /* FourViewController.m */,
+				89E6F89D1D6196B10067F26A /* FourViewController.xib */,
 				893430841D4F5A2200141749 /* oneDemoTextViewViewController.h */,
 				893430851D4F5A2200141749 /* oneDemoTextViewViewController.m */,
 				8910D2A31D51DD2A00F56938 /* twoDemoViewController.h */,
 				8910D2A41D51DD2A00F56938 /* twoDemoViewController.m */,
 				89DDAAF31D5200720005A4CC /* threeViewController.h */,
 				89DDAAF41D5200720005A4CC /* threeViewController.m */,
+				8948F65E1DAC7FFC006BE98A /* FiveViewController.h */,
+				8948F65F1DAC7FFC006BE98A /* FiveViewController.m */,
+				8948F6611DAC8213006BE98A /* view */,
 			);
 			name = oneVC;
+			sourceTree = "<group>";
+		};
+		8948F6611DAC8213006BE98A /* view */ = {
+			isa = PBXGroup;
+			children = (
+				8948F6621DAC8238006BE98A /* CollectionViewCell.h */,
+				8948F6631DAC8238006BE98A /* CollectionViewCell.m */,
+			);
+			name = view;
 			sourceTree = "<group>";
 		};
 		89DDAAEF1D51F66F0005A4CC /* category */ = {
@@ -376,8 +406,17 @@
 				8910D2981D51964200F56938 /* UITextView+HDFTextview.m */,
 				8910D29D1D51D25100F56938 /* UITextView+placeholder.h */,
 				8910D29E1D51D25100F56938 /* UITextView+placeholder.m */,
+				89E6F8971D5980D90067F26A /* UIButton+disableTime.h */,
+				89E6F8981D5980D90067F26A /* UIButton+disableTime.m */,
 			);
 			name = category;
+			sourceTree = "<group>";
+		};
+		89E6F89A1D59D9460067F26A /* customUIKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = customUIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -495,6 +534,7 @@
 				893430331D45F76200141749 /* tabBar_find@2x.png in Resources */,
 				893430351D45F76200141749 /* tabBar_forum@2x.png in Resources */,
 				893430361D45F76200141749 /* tabBar_forum2@2x.png in Resources */,
+				89E6F89F1D6196B10067F26A /* FourViewController.xib in Resources */,
 				893430341D45F76200141749 /* tabBar_find2@2x.png in Resources */,
 				893430411D461EBD00141749 /* tabBar_find2Red@2x.png in Resources */,
 				893430391D45F76200141749 /* tabBar_shop@2x.png in Resources */,
@@ -527,11 +567,13 @@
 				893430211D45F29E00141749 /* XLPThreeViewController.m in Sources */,
 				893430271D45F2B600141749 /* XLPFiveViewController.m in Sources */,
 				8934307D1D4F1D4F00141749 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				89E6F8991D5980D90067F26A /* UIButton+disableTime.m in Sources */,
 				8934303F1D461D5700141749 /* XLPTabBar.m in Sources */,
 				8934307B1D4F1D4F00141749 /* MASViewConstraint.m in Sources */,
 				893430241D45F2AA00141749 /* XLPFourViewController.m in Sources */,
 				8934307E1D4F1D4F00141749 /* View+MASAdditions.m in Sources */,
 				8934304F1D48A8FB00141749 /* XLPBaseNavigationViewController.m in Sources */,
+				8948F6641DAC8238006BE98A /* CollectionViewCell.m in Sources */,
 				8934307A1D4F1D4F00141749 /* MASViewAttribute.m in Sources */,
 				893430781D4F1D4F00141749 /* MASConstraintMaker.m in Sources */,
 				893430481D475E3B00141749 /* TestNavigationBarVController.m in Sources */,
@@ -539,6 +581,7 @@
 				893430151D45EFEC00141749 /* XLPTabBarViewController.m in Sources */,
 				893430181D45F13100141749 /* XLPViewController.m in Sources */,
 				8934307F1D4F1D4F00141749 /* ViewController+MASAdditions.m in Sources */,
+				89E6F89E1D6196B10067F26A /* FourViewController.m in Sources */,
 				89DDAAF51D5200720005A4CC /* threeViewController.m in Sources */,
 				8934301E1D45F28600141749 /* XLPTwoViewController.m in Sources */,
 				8934307C1D4F1D4F00141749 /* NSArray+MASAdditions.m in Sources */,
@@ -546,6 +589,7 @@
 				89342FE51D45EFAB00141749 /* AppDelegate.m in Sources */,
 				893430791D4F1D4F00141749 /* MASLayoutConstraint.m in Sources */,
 				893430761D4F1D4F00141749 /* MASCompositeConstraint.m in Sources */,
+				8948F6601DAC7FFC006BE98A /* FiveViewController.m in Sources */,
 				8934301B1D45F27200141749 /* XLPOneViewController.m in Sources */,
 				8910D2A51D51DD2A00F56938 /* twoDemoViewController.m in Sources */,
 				89342FE21D45EFAB00141749 /* main.m in Sources */,

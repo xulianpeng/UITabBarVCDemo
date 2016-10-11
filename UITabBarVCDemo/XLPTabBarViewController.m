@@ -15,7 +15,7 @@
 #import "XLPFourViewController.h"
 #import "XLPFiveViewController.h"
 #import "XLPTabBar.h"
-#import <objc/message.h>
+//#import <objc/message.h>
 @interface XLPTabBarViewController ()
 {
     XLPOneViewController *_oneVC;

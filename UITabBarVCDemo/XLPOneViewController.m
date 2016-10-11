@@ -11,6 +11,8 @@
 #import "oneDemoTextViewViewController.h"
 #import "twoDemoViewController.h"
 #import "threeViewController.h"
+#import "FourViewController.h"
+#import "FiveViewController.h"
 @interface XLPOneViewController ()<UITableViewDelegate,UITableViewDataSource>
 {
     UITableView *mainView;
@@ -24,9 +26,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    dataArr = [NSArray arrayWithObjects:@"测试1",@"测试二",@"测试1",@"测试二",@"测试1",@"测试二",@"测试1",@"测试二",@"测试1",@"测试二",@"测试1",@"测试二",@"测试1",@"测试二", nil];
+    dataArr = [NSArray arrayWithObjects:@"测试1",@"测试二",@"测试1",@"测试二",@"UICollectionViewDemo",@"测试二",@"测试1",@"测试二",@"测试1",@"测试二",@"测试1",@"测试二",@"测试1",@"测试二", nil];
     
-    VCArr = [NSArray arrayWithObjects:[oneDemoTextViewViewController new],[twoDemoViewController new],[threeViewController new], nil];
+    FourViewController *fourVC = [[FourViewController alloc]initWithNibName:@"FourViewController" bundle:nil];
+    VCArr = [NSArray arrayWithObjects:[oneDemoTextViewViewController new],[twoDemoViewController new],[threeViewController new], fourVC,[FiveViewController new],nil];
     mainView = [[UITableView alloc]init];
     [self.view addSubview:mainView];
     mainView.delegate = self;
@@ -84,6 +87,12 @@
             break;
         case 2:
             [self jumpToOneVC:2];
+            break;
+        case 3:
+            [self jumpToOneVC:3];
+            break;
+        case 4:
+            [self jumpToOneVC:4];
             break;
         default:
             break;
